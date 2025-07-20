@@ -238,10 +238,20 @@ display: flex;
     }
   }
 
-@media (max-width:700px) {
+@media (max-width:800px) {
        .bx-search,
        .bx-menu {
          font-size: 1.5rem;
        
     }
+          .inner-container {
+          margin: 0 auto;
+        }
       }
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px){
+.topbar-container, .herounit {
+  width: 100%;
+    margin: 0 auto;
+      }
+    }
