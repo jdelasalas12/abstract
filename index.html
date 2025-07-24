@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Abstract</title>
+   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" class="style" />
     <link
       href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
@@ -21,20 +22,25 @@
         >
         <a title="Home" href="help">Help Center</a>
       </div>
-
       <form action="" method="get">
+      <div class="search_box">
         <input class="right-nav" name="fsrch" placeholder="Search" />
-
+        <span class="icon">
+          <img src="images/search.png" alt="" class="searchBtn">
+          <i class='bxr  bx-menu'  style='color:#ffffff'></i> 
+           </span>
+        </div>
         <a class="button" href="" type="submit"> Submit a request </a>
-
-        <a class="right-nav-2" href="" type="submit">Sign In</button></a
-        >
-        <label for="" class="icons">
-          <i class="bx-search" style="color: #fff9f9"></i>
-          <i class="bx-menu" style="color: #fff9f9"></i>
-        </label>
-      </form>
+        <a class="right-nav-2" href="" type="submit">Sign In</button></a>
+         </form>  
+         <div class="search_box_expand">
+           <input class="s-expand" name="fsrch" placeholder="Search" />
+           <img src="images/x.png" alt="" class="closeBtn">
+         </div>
+                  
     </header>
+    
+    
     <section class="herounit">
       <div class="innerherounit">
         <div class="herotitle">How can we Help?</div>
@@ -192,5 +198,7 @@
         </div>
       
     </footer>
+      <script src="script.js"></script>
   </body>
+
 </html>
