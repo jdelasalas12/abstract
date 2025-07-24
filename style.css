@@ -355,6 +355,9 @@ height: 30px;
       text-wrap: nowrap;
       column-gap: 5px;
     }
+    .herounit{
+      height: 400px;
+    }
    .herotitle{
         font-size: 60px;
    }
