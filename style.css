@@ -403,7 +403,9 @@ height: 30px;
 form{
   margin-right: 50px;
 }
-
+.content-a {
+   font-size: 14px;
+  font-weight: 400;}
 a {
  font-size: 16px;
  font-weight: 400; 
